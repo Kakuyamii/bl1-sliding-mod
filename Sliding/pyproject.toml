@@ -1,0 +1,19 @@
+[project]
+name = "Sliding"
+version = "0.14.3"
+description = """Configurable Borderlands 3-style sliding for Borderlands 1.
+
+Credits: Movement Speed Changer by eeriegoesd (GPL-3.0-or-later)."""
+
+[project.urls]
+Source = "https://github.com/Kakuyamii/bl1-sliding-mod"
+"Issue Tracker" = "https://github.com/Kakuyamii/bl1-sliding-mod/issues"
+
+[tool.sdkmod]
+name = "Sliding"
+mod_type = "Standard"
+supported_games = ["BL1"]
+coop_support = "Unknown"
+auto_enable = true
+download = "https://github.com/Kakuyamii/bl1-sliding-mod/releases/latest/download/Sliding.sdkmod"
+license = { name = "GPL-3.0-or-later", url = "https://www.gnu.org/licenses/gpl-3.0.en.html" }
